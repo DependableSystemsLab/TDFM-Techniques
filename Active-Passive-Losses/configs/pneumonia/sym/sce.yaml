@@ -1,0 +1,33 @@
+epochs: 50
+grad_bound: 5.0
+log_frequency: 100
+
+dataset:
+  name: DatasetGenerator
+  asym: False
+  train_batch_size: 32
+  eval_batch_size: 32
+  data_path: /home/Active-Passive-Losses/datasets
+  dataset_type: 'Pneumonia'
+  num_of_workers: 8
+
+model:
+  name: C
+  type: $dataset.dataset_type
+  num_classes: 2
+
+optimizer:
+  name: Adam
+  lr: 0.01
+  weight_decay: 1.e-4
+
+scheduler:
+  name: CosineAnnealingLR
+  T_max: $epochs
+  eta_min: 0.0
+
+criterion:
+  name: SCELoss
+  num_classes: 2
+  alpha: 0.3
+  beta: 1.0
