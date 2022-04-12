@@ -2,7 +2,7 @@
 
 This repository contains our modified implementations of the TDFM approaches described in our DSN'22 paper - [The Fault in Our Data Stars: Studying Mitigation Techniques against Faulty Training Data in Machine Learning Applications](https://blogs.ubc.ca/dependablesystemslab/2022/03/14/the-fault-in-our-data-stars-studying-mitigation-techniques-against-faulty-training-data-in-ml-applications/).
 
-We give full credit to the original implementers of these tools.
+We list the original implementers of these tools below - these are based on publicly available sources.
 
 1. Label Smoothing: Originally from [LabelRelaxation](https://github.com/julilien/LabelRelaxation). Our modified version in [LabelRelaxation](LabelRelaxation/)
 2. Label Correction: Originally from [MLC](https://github.com/microsoft/MLC). Our modified version in [MLC](MLC/)
