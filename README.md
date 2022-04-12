@@ -1,6 +1,6 @@
 # Collection of Training-Data Fault Mitigation (TDFM) Techniques
 
-This repository contains our modified implementations of the TDFM approaches described in our DSN'22 paper - [The Fault in Our Data Stars: Studying Mitigation Techniques against Faulty Training Data in Machine Learning Applications](https://blogs.ubc.ca/dependablesystemslab/2022/03/14/the-fault-in-our-data-stars-studying-mitigation-techniques-against-faulty-training-data-in-ml-applications/).
+This repository contains our modified implementations of the TDFM approaches described in our DSN'22 paper, as well as the experimental results - [The Fault in Our Data Stars: Studying Mitigation Techniques against Faulty Training Data in Machine Learning Applications](https://blogs.ubc.ca/dependablesystemslab/2022/03/14/the-fault-in-our-data-stars-studying-mitigation-techniques-against-faulty-training-data-in-ml-applications/).
 
 We list the original implementers of these tools below - these are based on publicly available sources.
 
