@@ -12,6 +12,5 @@ We list the original implementers of these tools below - these are based on publ
 
 ## Supplementary Material
 
-1. The complete set of figures for all configurations is accessible [here](complete-figures.pdf).
+1. The complete set of figures for all configurations, including multiple fault type injection and runtime analysis, is accessible [here](complete-figures.pdf).
 2. The complete results in table form for all configurations is accessible [here](table-form-results.md).
-
